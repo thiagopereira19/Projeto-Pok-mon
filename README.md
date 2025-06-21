@@ -16,6 +16,15 @@ A ideia é que este repositório sirva tanto como registro do nosso progresso ac
 - **Renderização em janela gráfica:** Uso de bibliotecas para exibir os resultados de forma interativa.
 - **Código comentado:** Priorizamos a clareza, então você encontrará explicações ao longo do código.
 
+
+## 🎥 Demonstração
+
+[![Assista à demonstração no YouTube](https://img.youtube.com/vi/aypkZyRfEBA/maxresdefault.jpg)](https://youtu.be/aypkZyRfEBA?si=Czu6iGDClOf3vvLy)
+
+Neste vídeo, você confere o resultado da atividade prática de Computação Gráfica, onde o desafio era fazer um Pokémon dançar a música "Desenrola, Bate, Joga de Ladin". O projeto foi desenvolvido em C, utilizando conceitos de manipulação gráfica, transformações e animação para criar uma dinâmica divertida e interativa.
+
+Confira o código completo neste repositório!
+
 ## 🛠️ Tecnologias e Ferramentas
 
 - **Linguagem:** C
