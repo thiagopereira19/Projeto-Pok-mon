@@ -1,0 +1,50 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar C OpenGL",
+      "type": "shell",
+      "command": "C:\\msys64\\mingw64\\bin\\gcc.exe",
+      "args": [
+        "umbreon.c",
+        "-o",
+        "umbreon.exe",
+        "-lfreeglut",
+        "-lopengl32",
+        "-lglu32"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Executar programa",
+      "type": "shell",
+      "command": "${workspaceFolder}\\umbreon.exe",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": false
+      },
+      "dependsOn": "Compilar C OpenGL",
+      "problemMatcher": []
+    }
+  ]
+}
